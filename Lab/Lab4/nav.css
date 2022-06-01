@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 68.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+.search_img {
+  width: 2rem;
+  height: 2rem;
+}
+.bell_img {
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(219deg) brightness(99%)
+    contrast(89%);
+}
+nav {
+  position: relative;
+  width: 80%;
+  margin: 8rem auto;
+}
+ul {
+  position: absolute;
+  display: inline-block;
+  top: 1.5rem;
+  /* text-align: center; */
+}
+li {
+  display: inline;
+  list-style: none;
+  margin-right: 5rem;
+  font-size: 1.5rem;
+  color: #a5a9b1;
+  font-weight: 700;
+  cursor: pointer;
+}
+li:first-child {
+  margin-left: 1rem;
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #2d2d30;
+}
+.search {
+  position: absolute;
+  right: 11rem;
+  top: 2rem;
+}
+.search_img {
+  position: absolute;
+  top: 0.5rem;
+  margin-right: -2rem;
+  filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(219deg) brightness(99%)
+    contrast(89%);
+}
+input[type="text"] {
+  padding: 0.8rem 3rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+::placeholder {
+  color: #a3a9b4;
+  font-weight: 700;
+}
+.person_img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.person {
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+}
+.bell {
+  position: absolute;
+  right: 5rem;
+  top: 2rem;
+}
+nav::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 6rem;
+  left: -2rem;
+  margin: auto;
+  width: 105%;
+  height: 1.5px;
+  background-color: #dddddf;
+}
+/*------------Hover-------------------*/
+/* li:hover,
+li:active {
+  color: #3f4551;
+  padding-bottom: 1.6rem;
+  border-bottom: 3px solid #6467f1;
+} */
+li:not(:first-child):hover {
+  color: #3f4551;
+  padding-bottom: 1.6rem;
+  border-bottom: 3px solid #6467f1;
+}

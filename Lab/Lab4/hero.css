@@ -1,0 +1,109 @@
+@font-face {
+  font-family: arialBold;
+  src: url(fonts/Aileron-Heavy.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 68.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 80%;
+  margin: 2rem auto;
+}
+/*------------------------navigation------------------------------*/
+nav {
+  position: relative;
+}
+li {
+  list-style: none;
+  /* list-style-image: url(task-hero.png); */
+  display: inline;
+  margin-right: 4rem;
+  font-size: 1.6rem;
+  color: #626a77;
+  font-weight: 600;
+}
+li:first-child {
+  font-family: arialBold;
+  color: #1f2937;
+  font-size: 3.2rem;
+  margin-right: 20rem;
+}
+li:last-child {
+  margin-right: 0;
+  position: absolute;
+  /* margin-left: 20rem; */
+  right: 0;
+  bottom: 0;
+}
+/*-------------------------------Hero section-----------------------------*/
+.align {
+  /* background-color: brown; */
+  position: relative;
+  margin-bottom: 2rem;
+}
+.hero {
+  margin-top: 8rem;
+}
+h1 {
+  font-size: 4.5rem;
+  margin-bottom: 5rem;
+}
+.logo {
+  /* float: left; */
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: invert(44%) sepia(88%) saturate(2522%) hue-rotate(202deg)
+    brightness(98%) contrast(97%);
+}
+.left {
+  /* background-color: red; */
+
+  width: 48%;
+  float: left;
+  margin-top: 2rem;
+}
+p {
+  font-size: 1.7rem;
+  margin-left: 3rem;
+  position: absolute;
+  display: inline-block;
+  top: 0.4rem;
+  color: #959aa2;
+  font-weight: 700;
+}
+.hero_image {
+  width: 48%;
+  height: 60vh; /*means 60% of viewheight*/
+  float: right;
+  border-radius: 1rem;
+}
+/*----------------------------Email---------------------------*/
+.email {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+.text {
+  padding: 0.3rem 3rem;
+  border: 1px solid #e6e6e6;
+}
+::placeholder {
+  font-size: 1.3rem;
+  color: #b5bbc4;
+  font-weight: 500;
+}
+.join {
+  margin-left: 3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.9rem 1.4rem;
+  background-color: #3b82f6;
+  color: #fff;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}

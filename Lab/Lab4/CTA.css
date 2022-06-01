@@ -1,0 +1,62 @@
+@font-face {
+  font-family: arialBold;
+  src: url(fonts/Aileron-Heavy.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 68.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Times New Roman", Times, sans-serif; */
+}
+main {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  left: 55%;
+  transform: translateX(-50%);
+  bottom: 50%;
+}
+h1 {
+  font-family: arialBold;
+  /* color: black; */
+  /* color: #131a29; */
+  /* color: #333; */
+  color: #374151;
+  font-size: 3.2rem;
+  margin: 0 0 0.4rem 3rem;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+span {
+  margin-left: 8.5rem;
+}
+.last {
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+.buy {
+  padding: 0.9rem 1.3rem;
+  color: #f4f7fe;
+  background-color: #2663eb;
+  border: 1px solid #2663eb;
+  font-weight: 900;
+  border-radius: 6px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.journey {
+  /* border: 1px solid #cad0e5; */
+  /* background-color: #e0e7fe; */
+  color: #454e5d;
+  /* color: #333; */
+  /* border-radius: 4px; */
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
