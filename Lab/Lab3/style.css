@@ -1,0 +1,734 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 68.5%;
+  font-family: Inter;
+}
+body {
+  background-color: #0f172a;
+}
+* {
+  color: #fff;
+}
+span {
+  display: block;
+  width: 8rem;
+  height: 5rem;
+  border: 1px;
+  border-radius: 6%;
+}
+.custom {
+  color: #24adeb;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.first {
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  color: #94a3b8;
+}
+.second {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #94a3b8;
+}
+main {
+  width: 70%;
+  margin: 1rem auto;
+}
+.colors {
+  display: grid;
+  grid-template-columns: repeat(11, 8rem);
+  column-gap: 0.9rem;
+  row-gap: 3rem;
+}
+.number {
+  margin-top: 0.8rem;
+  height: auto;
+  margin-bottom: 0rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.color {
+  color: #96a1b0;
+  font-weight: 500;
+  height: auto;
+}
+.zero {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+
+.slate1 {
+  background-color: hsl(210, 40%, 98%);
+}
+.slate2 {
+  background-color: hsl(210, 40%, 96%);
+}
+.slate3 {
+  background-color: hsl(214, 32%, 91%);
+}
+.slate4 {
+  background-color: hsl(213, 27%, 84%);
+}
+.slate5 {
+  background-color: hsl(215, 20%, 65%);
+}
+.slate6 {
+  background-color: hsl(215, 16%, 47%);
+}
+.slate7 {
+  background-color: hsl(215, 19%, 35%);
+}
+.slate8 {
+  background-color: hsl(215, 25%, 27%);
+}
+.slate9 {
+  background-color: hsl(217, 33%, 17%);
+}
+.slate10 {
+  background-color: hsl(222, 47%, 11%);
+}
+.Gray1 {
+  background-color: hsl(210, 40%, 98%);
+}
+.Gray2 {
+  background-color: hsl(220, 14%, 96%);
+}
+.Gray3 {
+  background-color: hsl(220, 13%, 91%);
+}
+.Gray4 {
+  background-color: hsl(216, 12%, 84%);
+}
+.Gray5 {
+  background-color: hsl(218, 11%, 65%);
+}
+.Gray6 {
+  background-color: hsl(220, 9%, 46%);
+}
+.Gray7 {
+  background-color: hsl(215, 14%, 34%);
+}
+.Gray8 {
+  background-color: hsl(217, 19%, 27%);
+}
+.Gray9 {
+  background-color: hsl(215, 28%, 17%);
+}
+.Gray10 {
+  background-color: hsl(221, 39%, 11%);
+}
+.zinc1 {
+  background-color: hsl(0, 0%, 98%);
+}
+.zinc2 {
+  background-color: hsl(240, 5%, 96%);
+}
+.zinc3 {
+  background-color: hsl(240, 6%, 90%);
+}
+.zinc4 {
+  background-color: hsl(240, 5%, 84%);
+}
+.zinc5 {
+  background-color: hsl(240, 5%, 65%);
+}
+.zinc6 {
+  background-color: hsl(240, 4%, 46%);
+}
+.zinc7 {
+  background-color: hsl(240, 5%, 34%);
+}
+.zinc8 {
+  background-color: hsl(240, 5%, 26%);
+}
+.zinc9 {
+  background-color: hsl(240, 4%, 16%);
+}
+.zinc10 {
+  background-color: hsl(240, 6%, 10%);
+}
+.neutral1 {
+  background-color: hsl(0, 0%, 98%);
+}
+.neutral2 {
+  background-color: hsl(0, 0%, 96%);
+}
+.neutral3 {
+  background-color: hsl(0, 0%, 90%);
+}
+.neutral4 {
+  background-color: hsl(0, 0%, 83%);
+}
+.neutral5 {
+  background-color: hsl(0, 0%, 64%);
+}
+.neutral6 {
+  background-color: hsl(0, 0%, 45%);
+}
+.neutral7 {
+  background-color: hsl(0, 0%, 32%);
+}
+.neutral8 {
+  background-color: hsl(0, 0%, 25%);
+}
+.neutral9 {
+  background-color: hsl(0, 0%, 15%);
+}
+.neutral10 {
+  background-color: hsl(0, 0%, 9%);
+}
+.stone1 {
+  background-color: hsl(60, 9%, 98%);
+}
+.stone2 {
+  background-color: hsl(60, 5%, 96%);
+}
+.stone3 {
+  background-color: hsl(20, 6%, 90%);
+}
+.stone4 {
+  background-color: hsl(24, 6%, 83%);
+}
+.stone5 {
+  background-color: hsl(24, 5%, 64%);
+}
+.stone6 {
+  background-color: hsl(25, 5%, 45%);
+}
+.stone7 {
+  background-color: hsl(33, 5%, 32%);
+}
+.stone8 {
+  background-color: hsl(30, 6%, 25%);
+}
+.stone9 {
+  background-color: hsl(12, 6%, 15%);
+}
+.stone10 {
+  background-color: hsl(24, 10%, 10%);
+}
+.red1 {
+  background-color: hsl(0, 86%, 97%);
+}
+.red2 {
+  background-color: hsl(0, 93%, 94%);
+}
+.red3 {
+  background-color: hsl(0, 96%, 89%);
+}
+.red4 {
+  background-color: hsl(0, 94%, 82%);
+}
+.red5 {
+  background-color: hsl(0, 91%, 71%);
+}
+.red6 {
+  background-color: hsl(0, 84%, 60%);
+}
+.red7 {
+  background-color: hsl(0, 72%, 51%);
+}
+.red8 {
+  background-color: hsl(0, 74%, 42%);
+}
+.red9 {
+  background-color: hsl(0, 70%, 35%);
+}
+.red10 {
+  background-color: hsl(0, 63%, 31%);
+}
+.orange1 {
+  background-color: hsl(33, 100%, 96%);
+}
+.orange2 {
+  background-color: hsl(34, 100%, 92%);
+}
+.orange3 {
+  background-color: hsl(32, 98%, 83%);
+}
+.orange4 {
+  background-color: hsl(31, 97%, 72%);
+}
+.orange5 {
+  background-color: hsl(27, 96%, 61%);
+}
+.orange6 {
+  background-color: hsl(25, 95%, 53%);
+}
+.orange7 {
+  background-color: hsl(21, 90%, 48%);
+}
+.orange8 {
+  background-color: hsl(17, 88%, 40%);
+}
+.orange9 {
+  background-color: hsl(15, 79%, 34%);
+}
+.orange10 {
+  background-color: hsl(15, 75%, 28%);
+}
+.amber1 {
+  background-color: hsl(48, 100%, 96%);
+}
+.amber2 {
+  background-color: hsl(48, 96%, 89%);
+}
+.amber3 {
+  background-color: hsl(48, 97%, 77%);
+}
+.amber4 {
+  background-color: hsl(46, 97%, 65%);
+}
+.amber5 {
+  background-color: hsl(43, 96%, 56%);
+}
+.amber6 {
+  background-color: hsl(38, 92%, 50%);
+}
+.amber7 {
+  background-color: hsl(32, 95%, 44%);
+}
+.amber8 {
+  background-color: hsl(26, 90%, 37%);
+}
+.amber9 {
+  background-color: hsl(23, 82%, 31%);
+}
+.amber10 {
+  background-color: hsl(22, 78%, 26%);
+}
+.yellow1 {
+  background-color: hsl(55, 92%, 95%);
+}
+.yellow2 {
+  background-color: hsl(55, 97%, 88%);
+}
+.yellow3 {
+  background-color: hsl(53, 98%, 77%);
+}
+.yellow4 {
+  background-color: hsl(50, 98%, 64%);
+}
+.yellow5 {
+  background-color: hsl(48, 96%, 53%);
+}
+.yellow6 {
+  background-color: hsl(45, 93%, 47%);
+}
+.yellow7 {
+  background-color: hsl(41, 96%, 40%);
+}
+.yellow8 {
+  background-color: hsl(35, 92%, 33%);
+}
+.yellow9 {
+  background-color: hsl(32, 81%, 29%);
+}
+.yellow10 {
+  background-color: hsl(28, 73%, 26%);
+}
+.lime1 {
+  background-color: hsl(78, 92%, 95%);
+}
+.lime2 {
+  background-color: hsl(80, 89%, 89%);
+}
+.lime3 {
+  background-color: hsl(81, 88%, 80%);
+}
+.lime4 {
+  background-color: hsl(82, 85%, 67%);
+}
+.lime5 {
+  background-color: hsl(83, 78%, 55%);
+}
+.lime6 {
+  background-color: hsl(84, 81%, 44%);
+}
+.lime7 {
+  background-color: hsl(85, 85%, 35%);
+}
+.lime8 {
+  background-color: hsl(86, 78%, 27%);
+}
+.lime9 {
+  background-color: hsl(86, 69%, 23%);
+}
+.lime10 {
+  background-color: hsl(88, 61%, 20%);
+}
+.green1 {
+  background-color: hsl(138, 76%, 97%);
+}
+.green2 {
+  background-color: hsl(141, 84%, 93%);
+}
+.green3 {
+  background-color: hsl(141, 79%, 85%);
+}
+.green4 {
+  background-color: hsl(142, 77%, 73%);
+}
+.green5 {
+  background-color: hsl(142, 69%, 58%);
+}
+.green6 {
+  background-color: hsl(142, 71%, 45%);
+}
+.green7 {
+  background-color: hsl(142, 76%, 36%);
+}
+.green8 {
+  background-color: hsl(142, 72%, 29%);
+}
+.green9 {
+  background-color: hsl(143, 64%, 24%);
+}
+.green10 {
+  background-color: hsl(144, 61%, 20%);
+}
+.emerald1 {
+  background-color: hsl(152, 81%, 96%);
+}
+.emerald2 {
+  background-color: hsl(149, 80%, 90%);
+}
+.emerald3 {
+  background-color: hsl(152, 76%, 80%);
+}
+.emerald4 {
+  background-color: hsl(156, 72%, 67%);
+}
+.emerald5 {
+  background-color: hsl(158, 64%, 52%);
+}
+.emerald6 {
+  background-color: hsl(160, 84%, 39%);
+}
+.emerald7 {
+  background-color: hsl(161, 94%, 30%);
+}
+.emerald8 {
+  background-color: hsl(163, 94%, 24%);
+}
+.emerald9 {
+  background-color: hsl(163, 88%, 20%);
+}
+.emerald10 {
+  background-color: hsl(164, 86%, 16%);
+}
+.teal1 {
+  background-color: hsl(166, 76%, 97%);
+}
+.teal2 {
+  background-color: hsl(167, 85%, 89%);
+}
+.teal3 {
+  background-color: hsl(168, 84%, 78%);
+}
+.teal4 {
+  background-color: hsl(171, 77%, 64%);
+}
+.teal5 {
+  background-color: hsl(172, 66%, 50%);
+}
+.teal6 {
+  background-color: hsl(173, 80%, 40%);
+}
+.teal7 {
+  background-color: hsl(175, 84%, 32%);
+}
+.teal8 {
+  background-color: hsl(175, 77%, 26%);
+}
+.teal9 {
+  background-color: hsl(176, 69%, 22%);
+}
+.teal10 {
+  background-color: hsl(176, 61%, 19%);
+}
+.cyan1 {
+  background-color: hsl(183, 100%, 96%);
+}
+.cyan2 {
+  background-color: hsl(185, 96%, 90%);
+}
+.cyan3 {
+  background-color: hsl(186, 94%, 82%);
+}
+.cyan4 {
+  background-color: hsl(187, 92%, 69%);
+}
+.cyan5 {
+  background-color: hsl(188, 86%, 53%);
+}
+.cyan6 {
+  background-color: hsl(189, 94%, 43%);
+}
+.cyan7 {
+  background-color: hsl(192, 91%, 36%);
+}
+.cyan8 {
+  background-color: hsl(193, 82%, 31%);
+}
+.cyan9 {
+  background-color: hsl(194, 70%, 27%);
+}
+.cyan10 {
+  background-color: hsl(196, 64%, 24%);
+}
+.sky1 {
+  background-color: hsl(204, 100%, 97%);
+}
+.sky2 {
+  background-color: hsl(204, 94%, 94%);
+}
+.sky3 {
+  background-color: hsl(201, 94%, 86%);
+}
+.sky4 {
+  background-color: hsl(199, 95%, 74%);
+}
+.sky5 {
+  background-color: hsl(198, 93%, 60%);
+}
+.sky6 {
+  background-color: hsl(199, 89%, 48%);
+}
+.sky7 {
+  background-color: hsl(200, 98%, 39%);
+}
+.sky8 {
+  background-color: hsl(201, 96%, 32%);
+}
+.sky9 {
+  background-color: hsl(201, 90%, 27%);
+}
+.sky10 {
+  background-color: hsl(202, 80%, 24%);
+}
+.blue1 {
+  background-color: hsl(214, 100%, 97%);
+}
+.blue2 {
+  background-color: hsl(214, 95%, 93%);
+}
+.blue3 {
+  background-color: hsl(213, 97%, 87%);
+}
+.blue4 {
+  background-color: hsl(212, 96%, 78%);
+}
+.blue5 {
+  background-color: hsl(213, 94%, 68%);
+}
+.blue6 {
+  background-color: hsl(217, 91%, 60%);
+}
+.blue7 {
+  background-color: hsl(221, 83%, 53%);
+}
+.blue8 {
+  background-color: hsl(224, 76%, 48%);
+}
+.blue9 {
+  background-color: hsl(226, 71%, 40%);
+}
+.blue10 {
+  background-color: hsl(224, 64%, 33%);
+}
+.indigo1 {
+  background-color: hsl(226, 100%, 97%);
+}
+.indigo2 {
+  background-color: hsl(226, 100%, 94%);
+}
+.indigo3 {
+  background-color: hsl(228, 96%, 89%);
+}
+.indigo4 {
+  background-color: hsl(230, 94%, 82%);
+}
+.indigo5 {
+  background-color: hsl(234, 89%, 74%);
+}
+.indigo6 {
+  background-color: hsl(239, 84%, 67%);
+}
+.indigo7 {
+  background-color: hsl(243, 75%, 59%);
+}
+.indigo8 {
+  background-color: hsl(245, 58%, 51%);
+}
+.indigo9 {
+  background-color: hsl(244, 55%, 41%);
+}
+.indigo10 {
+  background-color: hsl(242, 47%, 34%);
+}
+.violet1 {
+  background-color: hsl(250, 100%, 98%);
+}
+.violet2 {
+  background-color: hsl(251, 91%, 95%);
+}
+.violet3 {
+  background-color: hsl(251, 95%, 92%);
+}
+.violet4 {
+  background-color: hsl(252, 95%, 85%);
+}
+.violet5 {
+  background-color: hsl(255, 92%, 76%);
+}
+.violet6 {
+  background-color: hsl(258, 90%, 66%);
+}
+.violet7 {
+  background-color: hsl(262, 83%, 58%);
+}
+.violet8 {
+  background-color: hsl(263, 70%, 50%);
+}
+.violet9 {
+  background-color: hsl(263, 69%, 42%);
+}
+.violet10 {
+  background-color: hsl(264, 67%, 35%);
+}
+.purple1 {
+  background-color: hsl(270, 100%, 98%);
+}
+.purple2 {
+  background-color: hsl(269, 100%, 95%);
+}
+.purple3 {
+  background-color: hsl(269, 100%, 92%);
+}
+.purple4 {
+  background-color: hsl(269, 97%, 85%);
+}
+.purple5 {
+  background-color: hsl(270, 95%, 75%);
+}
+.purple6 {
+  background-color: hsl(271, 91%, 65%);
+}
+.purple7 {
+  background-color: hsl(271, 81%, 56%);
+}
+.purple8 {
+  background-color: hsl(272, 72%, 47%);
+}
+.purple9 {
+  background-color: hsl(273, 67%, 39%);
+}
+.purple10 {
+  background-color: hsl(274, 66%, 32%);
+}
+.fuchsia1 {
+  background-color: hsl(289, 100%, 98%);
+}
+.fuchsia2 {
+  background-color: hsl(287, 100%, 95%);
+}
+.fuchsia3 {
+  background-color: hsl(288, 96%, 91%);
+}
+.fuchsia4 {
+  background-color: hsl(291, 93%, 83%);
+}
+.fuchsia5 {
+  background-color: hsl(292, 91%, 73%);
+}
+.fuchsia6 {
+  background-color: hsl(292, 84%, 61%);
+}
+.fuchsia7 {
+  background-color: hsl(293, 69%, 49%);
+}
+.fuchsia8 {
+  background-color: hsl(295, 72%, 40%);
+}
+.fuchsia9 {
+  background-color: hsl(295, 70%, 33%);
+}
+.fuchsia10 {
+  background-color: hsl(297, 64%, 28%);
+}
+.pink1 {
+  background-color: hsl(327, 73%, 97%);
+}
+.pink2 {
+  background-color: hsl(326, 78%, 95%);
+}
+.pink3 {
+  background-color: hsl(326, 85%, 90%);
+}
+.pink4 {
+  background-color: hsl(327, 87%, 82%);
+}
+.pink5 {
+  background-color: hsl(329, 86%, 70%);
+}
+.pink6 {
+  background-color: hsl(330, 81%, 60%);
+}
+.pink7 {
+  background-color: hsl(333, 71%, 51%);
+}
+.pink8 {
+  background-color: hsl(335, 78%, 42%);
+}
+.pink9 {
+  background-color: hsl(336, 74%, 35%);
+}
+.pink10 {
+  background-color: hsl(336, 69%, 30%);
+}
+.rose1 {
+  background-color: hsl(356, 100%, 97%);
+}
+.rose2 {
+  background-color: hsl(356, 100%, 95%);
+}
+.rose3 {
+  background-color: hsl(353, 96%, 90%);
+}
+.rose4 {
+  background-color: hsl(353, 96%, 82%);
+}
+.rose5 {
+  background-color: hsl(351, 95%, 71%);
+}
+.rose6 {
+  background-color: hsl(350, 89%, 60%);
+}
+.rose7 {
+  background-color: hsl(347, 77%, 50%);
+}
+.rose8 {
+  background-color: hsl(345, 83%, 41%);
+}
+.rose9 {
+  background-color: hsl(343, 80%, 35%);
+}
+.rose10 {
+  background-color: hsl(342, 75%, 30%);
+}
