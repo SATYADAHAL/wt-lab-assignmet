@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin-left: 600px;
+}
+html {
+  font-size: 70%;
+}
+h1::after {
+  position: absolute;
+  left: 0;
+  width: 127rem;
+  height: 1px;
+  content: " ";
+  display: block;
+  background-color: black;
+}
+.container {
+  width: 100%;
+  height: 94.2vh;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 2.4rem;
+  border-radius: 25px;
+}
+.one {
+  background-color: rgb(255, 52, 45);
+}
+.two {
+  background-color: rgb(80, 80, 248);
+  left: 100px;
+}
+.three {
+  background-color: rgb(106, 255, 106);
+  left: 200px;
+}
