@@ -68,9 +68,5 @@ XAMPP helps a local host or server to test its website and clients via computers
   127.0.0.1       hello.local
   127.0.0.1       second.local
 ```
-* This should shorten the path.
+* This will shorten the path.
 
-
-
-  
-  
