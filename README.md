@@ -1,4 +1,4 @@
-|  <pre>                     Assignment                     </pre>| <pre>                       Lab                          </pre>   |
+|  <pre>                    Assignment                    </pre>| <pre>               Lab                  </pre>   |
 | :---                                                                | :---                                                              |
 | <b>Assignment 1</b>                                                 |    <b>Lab 1</b>                                                   |
 |[Source-Code]()==> Working with github<br>[Result]()==>This is result                           |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab1)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab1/)                              |
