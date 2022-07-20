@@ -1,4 +1,4 @@
-###### Assignment Given: 21st June 2022 / Deadline:22nd june 2022
+![Screenshot](https://user-images.githubusercontent.com/51309409/179974480-745b93c7-8de7-48b7-a751-67be676430c3.png)
 
  # Sorting Arrays
  ### Sorting is to arrange the elements of an array in a particular order. PHP performs sorting on normal arrays like a numeric array and on associative arrays. Normal arrays like numeric arrays can be sorted by using the simple sort() function, and to perform the sorting on the associative array, we have different functions.
