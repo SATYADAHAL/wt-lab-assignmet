@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Carosoul</title>
+      <link rel="stylesheet" href="style2.css">
+      
+   </head>
+   <body>
+      <div class="content">
+         <div class="images">
+            <img src="background.png">
+            <img src="https://picsum.photos/seed/picsum/500/750">
+            <img src="https://picsum.photos/500/750">
+    
+         </div>
+         <div class="btm-slides">
+            <span onclick="btm_slide(1)"></span>
+            <span onclick="btm_slide(2)"></span>
+            <span onclick="btm_slide(3)"></span>
+           
+         </div>
+         <div class="sliders left" onclick="side_slide(-1)">
+            <span class="fas fa-angle-left">&lt;</span>
+         </div>
+         <div class="sliders right" onclick="side_slide(1)">
+            <span class="fas fa-angle-right">&gt;</span>
+         </div>
+      </div>
+      <script>
+         var indexValue = 1;
+         showImg(indexValue);
+         function btm_slide(e){showImg(indexValue = e);}
+         function side_slide(e){showImg(indexValue += e);}
+         function showImg(e){
+           var i;
+           const img = document.querySelectorAll('img');
+           const slider = document.querySelectorAll('.btm-slides span');
+           if(e > img.length){indexValue = 1}
+           if(e < 1){indexValue = img.length}
+           for(i = 0; i < img.length; i++){
+             img[i].style.display = "none";
+           }
+           for(i = 0; i < slider.length; i++){
+             slider[i].style.background = "rgba(255,255,255,0.1)";
+           }
+           img[indexValue-1].style.display = "block";
+           slider[indexValue-1].style.background = "white";
+         }
+      </script>
+   </body>
+</html>

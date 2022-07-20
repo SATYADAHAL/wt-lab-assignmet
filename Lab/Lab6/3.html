@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting List</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .draggable {
+            padding: 1rem;
+            background-color: rgb(86, 133, 208);
+            border: 1px solid rgb(103, 84, 171);
+
+        }
+
+        .dragging {
+            opacity: .5;
+        }
+
+        div {
+            margin: 5px;
+            text-align: center;
+            width: 50%;
+            border-radius: 5px;
+            font-family: sans-serif;
+            font-size: larger;
+        }
+
+        h1 {
+            margin: 25px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Draggable list</h1>
+    <div class="container">
+        <div class="draggable" draggable="true">
+
+            Draggable Item Number 1
+        </div>
+        <div class="draggable" draggable="true">
+
+            Draggable Item Number 2
+        </div>
+        <div class="draggable" draggable="true">
+
+            Draggable Item Number 3
+        </div>
+        <div class="draggable" draggable="true">
+
+            Draggable Item Number 4
+        </div>
+        <div class="draggable" draggable="true">
+
+            Draggable Item Number 5
+        </div>
+        <div class="draggable" draggable="true">
+
+            Draggable Item Number 6
+        </div>
+        <div class="draggable" draggable="true">
+
+            Draggable Item Number 7
+        </div>
+    </div>
+    <script>
+        const draggables = document.querySelectorAll('.draggable')
+        const containers = document.querySelectorAll('.container')
+
+        draggables.forEach(draggable => {
+            draggable.addEventListener('dragstart', () => {
+                draggable.classList.add('dragging')
+            })
+
+            draggable.addEventListener('dragend', () => {
+                draggable.classList.remove('dragging')
+            })
+        })
+
+        containers.forEach(container => {
+            container.addEventListener('dragover', e => {
+                e.preventDefault()
+                const afterElement = getDragAfterElement(container, e.clientY)
+                const dragitem = document.querySelector('.dragging')
+                if (afterElement == null) {
+                    container.appendChild(dragitem)
+                } else {
+                    container.insertBefore(dragitem, afterElement)
+                }
+            })
+        })
+
+        function getDragAfterElement(container, y) {
+            const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
+
+            return draggableElements.reduce((closest, child) => {
+                const box = child.getBoundingClientRect()
+                const offset = y - box.top - box.height / 2
+                if (offset < 0 && offset > closest.offset) {
+                    return { offset: offset, element: child }
+                } else {
+                    return closest
+                }
+            }, { offset: Number.NEGATIVE_INFINITY }).element
+        }
+    </script>
+</body>
+
+</html>
