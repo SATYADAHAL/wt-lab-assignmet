@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         const number = prompt('Enter the number:');
+        function palindrome(number){
+            let newNo ="";
+            for(let i = number.length - 1; i>=0; i-- ){
+                newNo += number[i];
+        }
+        return newNo;
+    }
+
+    const revNo =palindrome(number) ;
+    if(revNo==number){
+        console.log(revNo); 
+         console.log('is palindrome');
+    }
+
+    else{
+        console.log('not palindrome');
+    }
+
+    </script>
+</body>
+</html>
