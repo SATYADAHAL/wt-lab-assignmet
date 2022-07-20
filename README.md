@@ -1,9 +1,9 @@
 |  <pre>                    Assignment                    </pre>| <pre>               Lab                  </pre>   |
 | :---                                                                | :---                                                              |
 | <b>Assignment 1</b>                                                 |    <b>Lab 1</b>                                                   |
-|[Source-Code]()==> Working with github<br>[Result]()==>This is result                           |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab1)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab1/)                              |
+|Working with github<br>                           |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab1)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab1/)                              |
 | <b>Assignment 2</b>                                                 |    <b>Lab 2</b>                                                   |
-|[Source-Code]()==>DomainRegistration<br>[Result](https://www.satyadahal.com.np)                                |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab2)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab2/)                              |
+|DomainRegistration<br>[Result](https://www.satyadahal.com.np)                                |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab2)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab2/)                              |
 | <b>Assignment 3</b>                                                 |    <b>Lab 3</b>                                                   |
 |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Assignment/Assignment%203)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Assignment/Assignment%203/)|[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab3)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab3)                              |
 | <b>Assignment 4</b>                                                 |    <b>Lab 4</b>                                                   |
