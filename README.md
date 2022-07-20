@@ -1,4 +1,4 @@
-|  <pre>                       Assignment                       </pre>| <pre>                       Lab                          </pre>   |
+|  <pre>                     Assignment                     </pre>| <pre>                       Lab                          </pre>   |
 | :---                                                                | :---                                                              |
 | <b>Assignment 1</b>                                                 |    <b>Lab 1</b>                                                   |
 |[Source-Code]()==> Working with github<br>[Result]()==>This is result                           |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab1)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab1/)                              |
@@ -12,7 +12,7 @@
 |[Source-Code](https://github.com/SATYADAHAL/satyadahal.github.io)<br>[Result](https://www.satyadahal.com.np/)                                |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab5)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab5/)|
 | <b>Assignment 6</b>                                                 |    <b>Lab 6</b>                                                   |
 |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Assignment/Assignment%206)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Assignment/Assignment%206)                                |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab6)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab6/)                              |
-| <b>Assignment 7</b>                                                 |    <b>Lab 7</b>                                                   |
-|[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Assignment/Assignment%207)<br>[Result](text)==>Not Possible to Host on Github Pages                                |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab7)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab7/)                              |
-| <b>Assignment 8</b>                                                 |    <b>Lab 8</b>                                                   |
-|[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Assignment/Assignment%208)<br>[Result]()==>Not Possible to Host on Github Pages                                 |[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Lab/Lab8)<br>[Result](https://www.satyadahal.com.np/wt-lab-assignmet/Lab/Lab8/)                              |
+| <b>Assignment 7</b>                                                 |    <b>Lab #</b>                                                   |
+|[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Assignment/Assignment%207)<br>[Result](text)==>Not Possible to Host on Github Pages                                |[Source-Code](#)<br>[Result](#)                              |
+| <b>Assignment 8</b>                                                 |    <b>Lab #</b>                                                   |
+|[Source-Code](https://github.com/SATYADAHAL/wt-lab-assignmet/tree/main/Assignment/Assignment%208)<br>[Result]()==>Not Possible to Host on Github Pages                                 |[Source-Code](#)<br>[Result](#)                              |
